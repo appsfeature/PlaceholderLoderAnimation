@@ -6,6 +6,14 @@ We normally use spinner loaders when the app wants to load the data from a netwo
 <p align="center">
   <img src="https://raw.githubusercontent.com/appsfeature/PlaceholderLoderAnimation/master/screenshots/shimmer_screen.gif" alt="Preview 1" width="400" /> 
 </p>
+ 
+#### Dependency
+```gradle  
+
+dependencies {
+    implementation 'com.facebook.shimmer:shimmer:0.3.0@aar'
+} 
+```
 
 #### Usage method XML class
 ```xml 
