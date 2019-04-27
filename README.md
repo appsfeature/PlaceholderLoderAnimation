@@ -17,16 +17,23 @@ dependencies {
 
 #### Usage method XML class
 ```xml 
-      <com.facebook.shimmer.ShimmerFrameLayout
-          android:id="@+id/shimmer_view_container"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:orientation="vertical"
-          shimmer:shimmer_duration="800" > 
-        
-          <include layout="@layout/placeholder_item" />
+     <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"> 
+       
+        <LayoutMain...
 
-      </com.facebook.shimmer.ShimmerFrameLayout>
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmer_view_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            shimmer:shimmer_duration="800" > 
+
+            <include layout="@layout/ssc_placeholder_item" />
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </FrameLayout>
                                 
 ```
 
